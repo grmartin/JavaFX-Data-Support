@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.arg1arg2.jfx.Data?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.transform.Affine?>
+
+<?import com.arg1arg2.jfx.Data?>
+
+<Group xmlns:fx="http://javafx.com/fxml" xmlns:fxsvg="http://efxclipse.org/fxml-svg" id="_root" fx:controller="com.arg1arg2.test.JFXDataTag.LiveBindController">
+    <Data x="0px" width="1000px" y="0px" fx:id="livebinding" id="lookup_id" version="1.1" height="1000px"/>
+    <children>
+        <SVGPath opacity="1" content="M 564 334 L 544 553 C 542 579 538 599 531 613 C 524 627 513 634 497 634">
+            <fill>
+                <Color>
+                    <red>0.0</red>
+                    <green>0.0</green>
+                    <blue>0.0</blue>
+                </Color>
+            </fill>
+            <transforms>
+                <Affine tx="0" ty="40" mxx="1.0" myy="1.0" myx="0" mxy="0">
+                </Affine>
+            </transforms>
+        </SVGPath>
+    </children>
+</Group>
